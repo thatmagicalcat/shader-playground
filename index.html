@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust + WASM</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling */
+            width: 100%;
+            height: 100%;
+        }
+        canvas {
+            margin-right: 0;
+            margin-left: 0;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="loading_text"></h1>
+    <canvas id="canvas"></canvas>
+
+    <script type="module">
+        import init from "./pkg/shader_playground.js";
+        init()
+    </script>
+</body>
+</html>

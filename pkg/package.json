@@ -1,0 +1,15 @@
+{
+  "name": "shader-playground",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "shader_playground_bg.wasm",
+    "shader_playground.js",
+    "shader_playground.d.ts"
+  ],
+  "main": "shader_playground.js",
+  "types": "shader_playground.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

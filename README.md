@@ -1,5 +1,2 @@
-# webgl-template
-A template project for webgl
-
-## Screenshot
-![ss](screenshot.png)
+# Shader playground
+A simple wasm app where you can run shaders.
